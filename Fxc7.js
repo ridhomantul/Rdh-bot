@@ -201,7 +201,7 @@ async function starts() {
 			}
 
 			const botNumber = frhan.user.jid
-			const ownerNumber = ["6285745455226@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6283817484925@s.whatsapp.net", "6285745455226@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await frhan.groupMetadata(from) : ''
